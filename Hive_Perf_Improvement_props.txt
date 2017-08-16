@@ -1,0 +1,5 @@
+set hive.stats.fetch.column.stats=false
+set hive.merge.size.per.task=256000000;
+set hive.merge.smallfiles.avgsize=16000000;
+set hive.merge.mapredfiles=false;
+set hive.merge.tezfiles=false
